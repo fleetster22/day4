@@ -90,7 +90,7 @@ elif computer == 1:
     print(paper)
 else:
     print(scissors)
-# Rock beats scissors, scissors beats paper, paper beats rock
+# Rock 0 beats scissors 2, scissors 2 beats paper 1, paper 1 beats rock 0
 if playerChoice == computer:
     print("It's a tie")
 elif playerChoice == 0 and computer == 2 or playerChoice == 1 and computer == 0 or playerChoice == 2 and computer == 1:
